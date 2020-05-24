@@ -3,7 +3,7 @@ from writer import write_results
 import time
 import sys
 
-filename = sys.argv[1]
+filename = "data/" + sys.argv[1]
 vertices = 5
 random = False
 
